@@ -262,4 +262,5 @@ downloadPdf = (dom, options, cb) => {
   });
 };
 
-module.exports = downloadPdf;
+exports["default"] = downloadPdf;
+module.exports = exports["default"];
